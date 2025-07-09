@@ -4,7 +4,7 @@
 ```
 
 ### Language
-- [Java]()
-  - [자바의 신]()
+- [Java](https://github.com/hanhyur/Annals_of_Development/tree/main/Java)
+  - [자바의 신](https://github.com/hanhyur/Annals_of_Development/tree/main/Java/%EC%9E%90%EB%B0%94%EC%9D%98%20%EC%8B%A0)
  
 ### Data Structure
