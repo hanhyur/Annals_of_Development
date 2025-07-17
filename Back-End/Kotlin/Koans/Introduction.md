@@ -6,7 +6,7 @@ fun start(): String = TODO()
 ```
 
 ### Simple Functions
-Check out the [function syntax](https://kotlinlang.org/docs/basic-syntax.html?_gl=1*1vpxa7w*_gcl_au*MjA0MDUzMDI1Mi4xNzUyNjM5NTg1*_ga*MTQyOTk5MjYyNi4xNzUyNjM5NTg5*_ga_9J976DJZ68*czE3NTI2Mzk1ODUkbzEkZzEkdDE3NTI2NDI1MTckajUwJGwwJGgw#functions) and change the code to make the function `start` return the string `"OK"`.
+Check out the [function syntax](https://kotlinlang.org/docs/basic-syntax.html) and change the code to make the function `start` return the string `"OK"`.
 
 In the Kotlin Koans tasks, the function `TODO()` will throw an exception. To complete Kotlin Koans, you need to replace this function invocation with meaningful code according to the problem.
 
@@ -24,7 +24,7 @@ fun joinOptions(options: Collection<String>) =
 ### Named arguments
 Make the function `joinOptions()` return the list in a JSON format (for example, `[a, b, c]`) by specifying only two arguments.
 
-[Default and named](https://kotlinlang.org/docs/functions.html?_gl=1*yubqts*_gcl_au*MjA0MDUzMDI1Mi4xNzUyNjM5NTg1*_ga*MTQyOTk5MjYyNi4xNzUyNjM5NTg5*_ga_9J976DJZ68*czE3NTI2Mzk1ODUkbzEkZzEkdDE3NTI2NDI1MzkkajI4JGwwJGgw#default-arguments) arguments help to minimize the number of overloads and improve the readability of the function invocation. The library function `joinToString` is declared with default values for parameters:
+[Default and named](https://kotlinlang.org/docs/functions.html) arguments help to minimize the number of overloads and improve the readability of the function invocation. The library function `joinToString` is declared with default values for parameters:
 
 ```kotlin
 fun joinToString(
@@ -74,7 +74,7 @@ public String foo(String name) {
 }
 ```
 
-You can replace all these Java overloads with one function in Kotlin. Change the declaration of the `foo` function in a way that makes the code using `foo` compile. Use [default and named](https://kotlinlang.org/docs/functions.html?_gl=1*bmlm1h*_gcl_au*MjA0MDUzMDI1Mi4xNzUyNjM5NTg1*_ga*MTQyOTk5MjYyNi4xNzUyNjM5NTg5*_ga_9J976DJZ68*czE3NTI2Mzk1ODUkbzEkZzEkdDE3NTI2NDI0OTkkajgkbDAkaDA.&_cl=MTsxOzE7U0tjZG00OHcxa01OTFd0NjczVVFYY1hwUmZ5TGl0Vnh1MUJGbWJBd1R5dFVNdXJ3VzZ3TnBRRXJwU0FubkNzejs=#default-arguments) arguments.
+You can replace all these Java overloads with one function in Kotlin. Change the declaration of the `foo` function in a way that makes the code using `foo` compile. Use [default and named](https://kotlinlang.org/docs/functions.html) arguments.
 
 **Answer**
 ```kotlin
@@ -97,7 +97,7 @@ fun main() {
 ```
 
 ### Triple-quoted strings
-Learn about the [different string literals and string templates](https://kotlinlang.org/docs/strings.html?_gl=1*oscsn9*_gcl_au*MjA0MDUzMDI1Mi4xNzUyNjM5NTg1*_ga*MTQyOTk5MjYyNi4xNzUyNjM5NTg5*_ga_9J976DJZ68*czE3NTI2Mzk1ODUkbzEkZzEkdDE3NTI2NDI2NjMkajM3JGwwJGgw#string-literals) in Kotlin.
+Learn about the [different string literals and string templates](https://kotlinlang.org/docs/strings.html) in Kotlin.
 
 You can use the handy library functions `trimIndent` and `trimMargin` to format multiline triple-quoted strings in accordance with the surrounding code.
 
@@ -149,7 +149,7 @@ interface Mailer {
 ```
 
 ### Nullable types
-Learn about [null safety and safe calls](https://kotlinlang.org/docs/null-safety.html?_gl=1*v8vli8*_gcl_au*MjA0MDUzMDI1Mi4xNzUyNjM5NTg1*_ga*MTQyOTk5MjYyNi4xNzUyNjM5NTg5*_ga_9J976DJZ68*czE3NTI2Mzk1ODUkbzEkZzEkdDE3NTI2NDM4NDIkajI1JGwwJGgw) in Kotlin and rewrite the following Java code so that it only has one `if` expression:
+Learn about [null safety and safe calls](https://kotlinlang.org/docs/null-safety.html) in Kotlin and rewrite the following Java code so that it only has one `if` expression:
 
 ```java
 public void sendMessageToClient(
@@ -200,7 +200,7 @@ fun main() {
 ```
 
 ### Nothing type
-[Nothing type](https://kotlinlang.org/docs/exceptions.html?_gl=1*1d6jz3k*_gcl_au*MjA0MDUzMDI1Mi4xNzUyNjM5NTg1*_ga*MTQyOTk5MjYyNi4xNzUyNjM5NTg5*_ga_9J976DJZ68*czE3NTI2Mzk1ODUkbzEkZzEkdDE3NTI2NDQ4MjUkajM2JGwwJGgw#the-nothing-type) can be used as a return type for a function that always throws an exception. When you call such a function, the compiler uses the information that the execution doesn't continue beyond the function.
+[Nothing type](https://kotlinlang.org/docs/exceptions.html) can be used as a return type for a function that always throws an exception. When you call such a function, the compiler uses the information that the execution doesn't continue beyond the function.
 
 Specify `Nothing` return type for the `failWithWrongAge` function. Note that without the `Nothing` type, the `checkAge` function doesn't compile because the compiler assumes the `age` can be `null`.
 
@@ -229,7 +229,7 @@ fun containsEven(collection: Collection<Int>): Boolean =
 ```
 
 ### Lambdas
-Kotlin supports functional programming. Learn about [lambdas](https://kotlinlang.org/docs/lambdas.html?_gl=1*gnns7w*_gcl_au*MjA0MDUzMDI1Mi4xNzUyNjM5NTg1*_ga*MTQyOTk5MjYyNi4xNzUyNjM5NTg5*_ga_9J976DJZ68*czE3NTI2Mzk1ODUkbzEkZzEkdDE3NTI2NDUxMzEkajE2JGwwJGgw#lambda-expressions-and-anonymous-functions) in Kotlin.
+Kotlin supports functional programming. Learn about [lambdas](https://kotlinlang.org/docs/lambdas.html) in Kotlin.
 
 Pass a lambda to the `any` function to check if the collection contains an even number. The `any` function gets a predicate as an argument and returns true if at least one element satisfies the predicate.
 
